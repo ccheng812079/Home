@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css" class="rel">
+    <link rel="stylesheet" href="./bootstrap/jquery/jquery-ui.css" class="rel">
+    <script src="./bootstrap/jquery/jquery.js"></script>
+    <script src="./bootstrap/bootstrap.js"></script>
+    <script src="./bootstrap/jquery/jquery-ui.js"></script>
+    <style>
+        body {
+            width: 1920px;
+            height: 1080px;
+        }
+
+        a:link {
+            color: #FFC;
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: #FF9;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color: #FFC;
+        }
+
+        a:active {
+            text-decoration: none;
+            color: #FFC;
+        }
+        #toggleButton{
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center" valign="middle">
+                    <h1><a href="home.html">| H o m e |</a></h1>
+                </td>
+                <td align="center" valign="middle">
+                    <h1><a href="news.html">| N e w s |</a></h1>
+                </td>
+                <td align="center" valign="middle">
+                    <h1><a href="home.html"><img src="./04-01/01.png" width="200" height="226"></a></h1>
+                </td>
+                <td align="center" valign="middle">
+                    <h1><a href="discover.html">| Discover |</a></h1>
+                </td>
+                <td align="center" valign="middle">
+                    <h1><a href="tickets.html">| Tickets |</a></h1>
+                </td>
+            </tr>
+        </table>
+    </nav><br>
+    <h1 class="text-center">設計展資訊區</h1><br>
+    <hr>
+    <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="71%">
+                <div class="h4 text-center">
+                    <img src="./04-01/10.jpg" style="height: 500px; width: 800px; border-radius: 20px;" alt="">
+                    <p></p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </td>
+            <td width="29%">
+                <div id="readmore" class="collapse"><img src="./04-01/11.jpg" style="border-radius: 20px;" alt="">Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. Vel quaerat, sit, facilis dolor placeat tenetur iusto cumque, non esse
+                    totam laborum. Tempora modi deleniti, cupiditate dolor sint laboriosam nihil cum!Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit. Itaque.</div>
+                <p></p>
+            </td>
+        </tr>
+    </table>
+
+    <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td align="center"><button class="btn btn-primary" data-target="#readmore" data-toggle="collapse"
+                    id="btn">Read More</button></td>
+        </tr>
+    </table>
+
+
+
+    </div>
+    <script>
+        $("#readmore").on("show.bs.collapse", () => {
+            $("#btn").text("Read Less");
+        })
+        $("#readmore").on("hide.bs.collapse", () => {
+            $("#btn").text("Read More");
+        })
+    </script>
+
+
+    <div class="fixed-bottom w-20 text-center">
+        <h3 text-center>活動資訊區</h3>
+        <footer>dsiofipoawerfgpore&copy;bhguhi</footer>
+    </div>
+</body>
+
+</html>
