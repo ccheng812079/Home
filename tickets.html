@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法國商務展</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css" class="rel">
+    <script src="./bootstrap/jquery/jquery.js"></script>
+    <script src="./bootstrap/bootstrap.js"></script>
+    <style>
+        body{
+            width: 1920px;
+            height: 1080px;
+        }
+    a:link {
+    color: #FFDD00;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #FFDD00;
+}
+a:hover {
+    text-decoration: none;
+    color: #FFDD00;
+}
+a:active {
+    text-decoration: none;
+    color: #FFDD00;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand lg navbar-light bg-warning">
+        <table width="80%" border="0" align="center">
+  <tbody>
+    <tr>
+      <td align="center"><h1><a href="home.html">| Home |</a></h1></td>
+      <td align="center"><h1><a href="news.html">| News | </a></h1></td>
+      <td align="center"><h1><img src="img/logo2.png" width="350" height="349" alt=""/></h1></td>
+      <td align="center"><h1><a href="business.html">| Business |</a></h1></td>
+      <td align="center"><h1><a href="tickets.html">| Tickets |</a></h1></td>
+    </tr>
+  </tbody>
+</table>
+
+</nav>
+    <br><br><h2 class="text-center">訂票中心</h2>
+<hr>
+<form action="tickets.php" id="form" method="post">
+<table class="w-25 text-center mx-auto">
+    <tr class="form-group">
+        <td class="form-text"><h4>名字</h4></td>
+        <td><input type="text" name="fname" id="fname" class="form-control" required ></td>
+    </tr>
+    <tr class="form-group">
+        <td class="form-text"><h4>姓氏</h4></td>
+        <td><input type="text" name="lname" id="lname" class="form-control" required ></td>
+    </tr>
+    <tr class="form-group">
+        <td class="form-text"><h4>電話</h4></td>
+        <td><input type="text" name="phone" id="phone" class="form-control" required placeholder="EX:123456789"></td>
+    </tr>
+    <tr class="form-group">
+        <td class="form-text"><h4>密碼</h4></td>
+        <td><input type="password" name="pd" id="pd" class="form-control" required ></td>
+    </tr>
+    <tr class="form-group">
+        <td class="form-text"><h4>驗證碼</h4></td>
+        <td><input type="text" name="veri" id="veri" class="form-control" required ><iframe src="veri.php" scrolling="no" width="100" height="60" frameborder="0"></iframe></td>
+    <span class="veri col-3"></span></div></tr>
+    <tr>
+        <td class="text-center" colspan="2"><input type="submit" class="btn btn-primary" value="submit">
+            <input type="button" class="btn btn-primary" onclick="location.reload()" value="result"></td>
+    </tr></td>
+</tr>
+</table>
+</form>
+
+<div class="h2 text-center">活動資訊區
+<a href="https:/facebook.com"><img src="img/facebook.png" style="height: 50px;" alt=""></a>
+<a href="https:/google.com"><img src="img/google.png" style="height: 50px;" alt=""></a>
+</div>
+
+
+<div class="fixed-bottom text-center w-20">
+    <footer>Lorem ipsum dolor sit &copy; amet consectetur adipisicing.
+    </footer>
+</div>
+
+</body>
+</html>

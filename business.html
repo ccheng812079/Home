@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法國商務展</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css" class="rel">
+    <link rel="stylesheet" href="./bootstrap/jquery/jquery-ui.css" class="rel">
+    <script src="./bootstrap/jquery/jquery.js"></script>
+    <script src="./bootstrap/bootstrap.js"></script>
+    <script src="./bootstrap/jquery/jquery-ui.js"></script>
+    <style>
+        body{
+            width: 1920px;
+            height: 1080px;
+        }
+    a:link {
+    color: #FFDD00;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #FFDD00;
+}
+a:hover {
+    text-decoration: none;
+    color: #FFDD00;
+}
+a:active {
+    text-decoration: none;
+    color: #FFDD00;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand lg navbar-light bg-warning">
+        <table width="80%" border="0" align="center">
+  <tbody>
+    <tr>
+      <td align="center"><h1><a href="home.html">| Home |</a></h1></td>
+      <td align="center"><h1><a href="news.html">| News | </a></h1></td>
+      <td align="center"><h1><img src="img/logo2.png" width="350" height="349" alt=""/></h1></td>
+      <td align="center"><h1><a href="business.html">| Business |</a></h1></td>
+      <td align="center"><h1><a href="tickets.html">| Tickets |</a></h1></td>
+    </tr>
+  </tbody>
+</table>
+
+</nav>
+    <br><br><h2 class="text-center">設計展資訊區
+<hr>
+
+Lorem ipsum dolor sit amet consectetur.<a href="#" onclick="view1()">view(觀看)</a><p></p>
+Lorem ipsum dolor sit amet consectetur.<a href="#" onclick="view2()">view(觀看)</a><p></p>
+Lorem ipsum dolor sit amet consectetur.<a href="#" onclick="view3()">view(觀看)</a><p></p>
+Lorem ipsum dolor sit amet consectetur.<a href="#" onclick="view4()">view(觀看)</a><p></p>
+Lorem ipsum dolor sit amet consectetur.<a href="#" onclick="view5()">view(觀看)</a><p></p>
+<div id="p1" title="view1"></div>
+<div id="p2" title="view2"></div>
+<div id="p3" title="view3"></div>
+<div id="p4" title="view4"></div>
+<div id="p5" title="view5"></div></h2>
+<script>
+    function view1(){
+        document.getElementById("p1").innerHTML="<center><h3>1</h3><img src='img/10.jpg' ></center>";
+        $('#p1').dialog({width:500,hight:500});
+    }
+    function view2(){
+        document.getElementById("p2").innerHTML="<center><h3>2</h3><img src='img/09.jpg' ></center>";
+        $('#p2').dialog({width:500,hight:500});
+    }
+    function view3(){
+        document.getElementById("p3").innerHTML="<center><h3>3</h3><img src='img/12.jpg' ></center>";
+        $('#p3').dialog({width:500,hight:500});
+    }
+    function view4(){
+        document.getElementById("p4").innerHTML="<center><h3>4</h3><img src='img/11.jpg' ></center>";
+        $('#p4').dialog({width:500,hight:500});
+    }
+    function view5(){
+        document.getElementById("p5").innerHTML="<center><h3>5</h3><img src='img/08.jpg' ></center>";
+        $('#p5').dialog({width:500,hight:500});
+    }
+</script>
+
+<div class="h2 text-center">活動資訊區
+<a href="https:/facebook.com"><img src="img/facebook.png" style="height: 50px;" alt=""></a>
+<a href="https:/google.com"><img src="img/google.png" style="height: 50px;" alt=""></a>
+</div>
+
+
+<div class="fixed-bottom text-center w-20">
+    <footer>Lorem ipsum dolor sit &copy; amet consectetur adipisicing.
+    </footer>
+</div>
+
+</body>
+</html>

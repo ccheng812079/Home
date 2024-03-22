@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法國商務展</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css" class="rel">
+    <script src="./bootstrap/jquery/jquery.js"></script>
+    <script src="./bootstrap/bootstrap.js"></script>
+    <style>
+        body{
+            width: 1920px;
+            height: 1080px;
+        }
+    a:link {
+    color: #FFDD00;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #FFDD00;
+}
+a:hover {
+    text-decoration: none;
+    color: #FFDD00;
+}
+a:active {
+    text-decoration: none;
+    color: #FFDD00;
+}
+#a1{
+    position:absolute;
+    top: 500px;
+    left: 500px;
+    background-color: #FFDD00;
+font-size: 25px;
+}
+#a2{
+    position:absolute;
+    top: 600px;
+    left: 600px;
+    background-color: #FFDD00;
+font-size: 25px;
+}
+#a3{
+    position:absolute;
+    top: 800px;
+    left: 720px;
+    background-color: #FFDD00;
+font-size: 25px;
+}
+#a4{
+    position:absolute;
+    top: 700px;
+    left: 630px;
+    background-color: #FFDD00;
+font-size: 25px;
+}
+#a5{
+    position:absolute;
+    top: 850px;
+    left: 850px;
+    background-color: #FFDD00;
+font-size: 25px;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand lg navbar-light bg-warning">
+        <table width="80%" border="0" align="center">
+  <tbody>
+    <tr>
+      <td align="center"><h1><a href="home.html">| Home |</a></h1></td>
+      <td align="center"><h1><a href="news.html">| News | </a></h1></td>
+      <td align="center"><h1><img src="img/logo2.png" width="350" height="349" alt=""/></h1></td>
+      <td align="center"><h1><a href="business.html">| Business |</a></h1></td>
+      <td align="center"><h1><a href="tickets.html">| Tickets |</a></h1></td>
+    </tr>
+  </tbody>
+</table>
+
+</nav><center>
+    <br><br><h2 class="text-center">地圖資訊顯示區</h2>
+<hr>
+<table border="5">
+  <tbody>
+    <tr width="500">
+      <td width="500" height="400"><img src="img/77map.jpg" width="500" height="400" alt=""></td>
+      <td width="500" align="center"><img src="#" width="500" id="simg" alt=""><div id="smap">地圖顯示區域</div></td>
+    </tr>
+  </tbody>
+</table>
+<div id="a1">地點1</div>
+<div id="a2">地點2</div>
+<div id="a3">地點3</div>
+<div id="a4">地點4</div>
+<div id="a5">地點5</div>
+<script>
+    var a1=document.getElementById('a1');
+    var a2=document.getElementById('a2');
+    var a3=document.getElementById('a3');
+    var a4=document.getElementById('a4');
+    var a5=document.getElementById('a5');
+    var simg=document.getElementById('simg');
+    var smap=document.getElementById('smap');
+    a1.onclick=function(){
+        simg.src='img/20.jpg';
+        simg.style.display='block';
+        smap.innerHTML='地點區1';
+    }
+    a2.onclick=function(){
+        simg.src='img/27.jpg';
+        simg.style.display='block';
+        smap.innerHTML='地點區2';
+    }
+    a3.onclick=function(){
+        simg.src='img/13.jpg';
+        simg.style.display='block';
+        smap.innerHTML='地點區3';
+    }
+    a4.onclick=function(){
+        simg.src='img/18.jpg';
+        simg.style.display='block';
+        smap.innerHTML='地點區4';
+    }
+    a5.onclick=function(){
+        simg.src='img/19.jpg';
+        simg.style.display='block';
+        smap.innerHTML='地點區5';
+    }
+</script>
+
+
+
+</center>
+<div class="h2 text-center">活動資訊區
+<a href="https:/facebook.com"><img src="img/facebook.png" style="height: 50px;" alt=""></a>
+<a href="https:/google.com"><img src="img/google.png" style="height: 50px;" alt=""></a>
+</div>
+
+
+<div class="fixed-bottom text-center w-20">
+    <footer>Lorem ipsum dolor sit &copy; amet consectetur adipisicing.
+    </footer>
+</div>
+
+</body>
+</html>
